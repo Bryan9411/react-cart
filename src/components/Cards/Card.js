@@ -60,7 +60,7 @@ export default function Card({card, carts, handleClickAddToCarts}) {
        <Title>{card.title}</Title>
        <Price>售價{card.price}</Price>
        <Content>{card.desc}</Content>
-       <Buy onClick={() => handleClickAddToCarts(card.id, card.title, card.price)} disabled={carts.find(cart => cart.id === card.id)}>點我購買</Buy>
+       <Buy onClick={() =>                                   handleClickAddToCarts(card.id, card.title, card.price)} disabled={carts.find(cart => cart.id === card.id)}>點我購買</Buy>
      </CardInfo>
    </Container>
   )
