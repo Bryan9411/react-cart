@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from "styled-components";
 
 const CartInfo = styled.tr`
   td {
@@ -7,26 +7,27 @@ const CartInfo = styled.tr`
     border-bottom: 2px solid #eceeef;
     text-align: center;
   }
-`
+`;
 const DeleteCommodity = styled.div`
   background-color: pink;
   cursor: pointer;
   color: white;
-  padding:8px;
+  padding: 8px;
   border-radius: 8px;
   font-size: 20px;
-`
+`;
 
-export default function Cart({cart, handleDeleteCommodity}) {
+export default function Cart({ cart, handleDeleteCommodity }) {
   return (
     <CartInfo>
       <th>{cart.id}</th>
       <td>{cart.title}</td>
       <td>{cart.price}</td>
       <td>
-        <DeleteCommodity onClick={() => handleDeleteCommodity(cart.id)}>X</DeleteCommodity>
+        <DeleteCommodity onClick={() => handleDeleteCommodity(cart.id)}>
+          X
+        </DeleteCommodity>
       </td>
     </CartInfo>
-        
-  )
+  );
 }
