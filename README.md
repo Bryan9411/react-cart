@@ -1,4 +1,4 @@
-# 使用 React 製作簡易購物車
+# React-Cart
 
  購物車 [DEMO](https://bryan9411.github.io/react-cart/)
 
