@@ -1,7 +1,11 @@
-# React-Cart
+# React 購物車
+ React 製作的簡易購物車功能
+ [DEMO](https://bryan9411.github.io/react-cart/)
 
- 購物車 [DEMO](https://bryan9411.github.io/react-cart/)
-
+## 使用技術
+  * styled-components 撰寫 css
+  * 使用 function component 寫法
+  * Fetch 串接 API
 ## 功能描述
 
 * 新增商品到購物車
