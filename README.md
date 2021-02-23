@@ -2,7 +2,7 @@
  React 製作的簡易購物車功能
  [DEMO](https://bryan9411.github.io/react-cart/)
 
-## 使用技術
+## 技術
   * styled-components 撰寫 css
   * 使用 function component 寫法
   * Fetch 串接 API
